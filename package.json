@@ -11,7 +11,7 @@
     "@lingui/core": "4.11.1",
     "@lingui/react": "4.11.1",
     "@metamask/logo": "^4.0.0",
-    "@rive-app/react-canvas": "^4.25.3",
+    "@rive-app/react-canvas": "^4.26.1",
     "@sendgrid/mail": "^7.7.0",
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "11.2.7",
