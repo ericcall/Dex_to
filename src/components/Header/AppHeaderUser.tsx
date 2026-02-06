@@ -18,11 +18,9 @@ import 'wallet-connect-modal/dist/wallets/solflare/styles.css';
 
 import "./Header.css";
 import { isHomeSite, getAccountUrl } from "lib/legacy";
-import cx from "classnames";
-import { Trans } from "@lingui/macro";
 import NetworkDropdown from "../NetworkDropdown/NetworkDropdown";
 import LanguagePopupHome from "../NetworkDropdown/LanguagePopupHome";
-import { ARBITRUM, FTM_TESTNET, U2U_TESTNET, getChainName } from "config/chains";
+import { U2U_TESTNET, getChainName } from "config/chains";
 import { switchNetwork } from "lib/wallets";
 import { useChainId } from "lib/chains";
 // import { isDevelopment } from "config/env";

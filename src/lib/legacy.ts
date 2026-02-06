@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 
-import { useEffect, useState } from "react";
 import { useWeb3React } from "@web3-react/core";
 import { BigNumber, ethers } from "ethers";
 import { getContract } from "config/contracts";
@@ -9,7 +8,7 @@ import useSWR from "swr";
 import OrderBookReader from "abis/OrderBookReader.json";
 import OrderBook from "abis/OrderBook.json";
 
-import { CHAIN_ID, getExplorerUrl, getRpcUrl } from "config/chains";
+import { CHAIN_ID, getExplorerUrl } from "config/chains";
 import { getServerBaseUrl } from "config/backend";
 import { getMostAbundantStableToken } from "domain/tokens";
 import { getTokenInfo } from "domain/tokens/utils";

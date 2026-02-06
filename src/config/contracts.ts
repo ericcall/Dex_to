@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { ethers } from "ethers";
 import { ARBITRUM, FTM_TESTNET, U2U_TESTNET } from "./chains";
-
-const { AddressZero } = ethers.constants;
 
 export const XGMT_EXCLUDED_ACCOUNTS = [
   "0x330eef6b9b1ea6edd620c825c9919dc8b611d5d5",

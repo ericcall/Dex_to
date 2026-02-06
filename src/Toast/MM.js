@@ -381,6 +381,7 @@ useEffect(() => {
                     </button>
                     <div className="unlock-page__links">
                       <a
+                        href=""
                         className="button btn-link unlock-page__link"
                         style={{ fontSize: "1.125rem", textDecoration: 'none', color:'#3b82f9', fontWeight: '100' }}
                         role="button"

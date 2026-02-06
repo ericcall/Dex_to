@@ -772,6 +772,14 @@ export default function ConfirmationBox(props) {
     showCollateralSpread,
     savedSlippageAmount,
     fundingRate,
+
+    // ✅ Add these missing dependencies
+    borrowFeeText,
+    fromAmount,
+    fromToken.decimals,
+    fromToken.symbol,
+    isSwap,
+    spreadFeePercent,
   ]);
 
   const renderSwapSection = useCallback(() => {

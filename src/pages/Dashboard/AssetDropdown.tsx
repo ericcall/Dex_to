@@ -13,8 +13,7 @@ import { ICONLINKS, PLATFORM_TOKENS } from "config/tokens";
 import { addTokenToMetamask } from "lib/wallets";
 import { useChainId } from "lib/chains";
 import { Token } from "domain/tokens";
-import { FTM_TESTNET } from "config/chains";
-import { getIcon, getIcons } from "config/icons";
+import { getIcons } from "config/icons";
 import { getExplorerUrl } from "config/chains";
 
 type Props = {

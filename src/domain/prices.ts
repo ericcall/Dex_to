@@ -196,20 +196,6 @@ export function getChainlinkChartPricesFromGraph(tokenSymbol, period) {
   const PER_CHUNK = 1000;
   const CHUNKS_TOTAL = 6;
   const requests: any[] = [];
-  for (let i = 0; i < CHUNKS_TOTAL; i++) {
-    const query = gql(`{
-      rounds(
-        first: ${PER_CHUNK},
-        skip: ${i * PER_CHUNK},
-        orderBy: unixTimestamp,
-        orderDirection: desc,
-        where: {feed: "${feedId}"}
-      ) {
-        unixTimestamp,
-        value
-      }
-    }`);
-  }
 
   return Promise.all(requests)
     .then((chunks) => {

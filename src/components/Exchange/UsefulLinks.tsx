@@ -8,7 +8,6 @@ import { useChainId } from "lib/chains";
 
 export default function UsefulLinks({ className }) {
   const { chainId } = useChainId();
-  const leaderBoardLink = getLeaderboardLink(chainId);
   const classNames = cx("Exchange-swap-market-box App-box App-box-border", className);
   return (
     <div className={classNames}>
