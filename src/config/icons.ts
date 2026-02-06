@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { ARBITRUM, FTM_TESTNET, U2U_TESTNET } from "config/chains";
 import arbitrum from "img/ic_arbitrum_24.svg";
 import avalanche from "img/ic_avalanche_24.svg";

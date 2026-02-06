@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { BigNumber, ethers } from "ethers";
 import { gql } from "@apollo/client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";

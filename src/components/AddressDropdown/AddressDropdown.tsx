@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import Davatar from "@davatar/react";
 import { Menu } from "@headlessui/react";
 import { t, Trans } from "@lingui/macro";

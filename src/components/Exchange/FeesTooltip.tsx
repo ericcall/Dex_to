@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { t, Trans } from "@lingui/macro";
 import ExternalLink from "components/ExternalLink/ExternalLink";
 import StatsTooltipRow from "components/StatsTooltip/StatsTooltipRow";

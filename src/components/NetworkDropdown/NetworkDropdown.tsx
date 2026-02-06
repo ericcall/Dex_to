@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useRef, useState } from "react";
 import { Menu } from "@headlessui/react";
 import ModalWithPortal from "../Modal/ModalWithPortal";

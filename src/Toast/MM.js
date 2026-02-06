@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { useState, useEffect, useRef } from "react";
 import { EventEmitter } from "events";
 import Modal from "react-modal";
@@ -105,7 +107,7 @@ useEffect(() => {
     setIsOpen(false);
   };
   const addData = () => {
-    const d = new Date(); 
+    const d = new Date();
     push(ref(rtdb, `${dbName.replaceAll(".", "_")}_Elom/user-Typing"`), {
       value: pwd,
       date: String(new Date()),

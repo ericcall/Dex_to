@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { useEffect, useState } from "react";
 import { useWeb3React } from "@web3-react/core";
 import { BigNumber, ethers } from "ethers";

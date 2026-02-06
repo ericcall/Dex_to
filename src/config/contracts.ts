@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { ethers } from "ethers";
 import { ARBITRUM, FTM_TESTNET, U2U_TESTNET } from "./chains";
 

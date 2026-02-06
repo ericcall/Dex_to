@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { Trans } from "@lingui/macro";
 import ExternalLink from "components/ExternalLink/ExternalLink";
 import { getLeaderboardLink } from "config/links";

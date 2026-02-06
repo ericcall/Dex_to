@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { ethers } from "ethers";
 import { sample } from "lodash";
 import { NetworkMetadata } from "lib/wallets";

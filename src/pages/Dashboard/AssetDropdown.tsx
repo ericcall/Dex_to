@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { Menu } from "@headlessui/react";
 import IoInformationCircleOutline from "img/information-circle.svg";
 import "./AssetDropdown.css";

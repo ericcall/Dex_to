@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { t } from "@lingui/macro";
 import "./Footer.css";
 import twitterIcon from "img/ic_twitter.svg";

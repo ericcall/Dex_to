@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useCallback, useState, useMemo, useRef, useEffect } from "react";
 import { useKey } from "react-use";
 import "./ConfirmationBox.css";

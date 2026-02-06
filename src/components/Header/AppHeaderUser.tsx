@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { useWeb3React } from "@web3-react/core";
 import AddressDropdown from "../AddressDropdown/AddressDropdown";
 // import ConnectWalletButton from "../Common/ConnectWalletButton";
