@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useState, useCallback } from "react";
 import { Trans, t } from "@lingui/macro";
 import { useWeb3React } from "@web3-react/core";
