@@ -846,7 +846,6 @@ export default function ConfirmationBox(props) {
     renderAvailableLiquidity,
     currentExecutionFee,
     currentExecutionFeeUsd,
-    savedSlippageAmount,
   ]);
   const submitButtonRef = useRef(null);
 
