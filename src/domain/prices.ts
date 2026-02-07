@@ -1,5 +1,4 @@
 import { useMemo } from "react";
-import { gql } from "@apollo/client";
 import useSWR from "swr";
 import { ethers } from "ethers";
 import { USD_DECIMALS, CHART_PERIODS } from "lib/legacy";
@@ -192,9 +191,7 @@ export function getChainlinkChartPricesFromGraph(tokenSymbol, period) {
   if (!feedId) {
     throw new Error(`undefined marketName ${marketName}`);
   }
-
-  const PER_CHUNK = 1000;
-  const CHUNKS_TOTAL = 6;
+  
   const requests: any[] = [];
 
   return Promise.all(requests)

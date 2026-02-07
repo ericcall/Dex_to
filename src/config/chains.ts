@@ -3,7 +3,6 @@
 import { ethers } from "ethers";
 import { sample } from "lodash";
 import { NetworkMetadata } from "lib/wallets";
-import { isLocal } from "./env";
 
 const { parseEther } = ethers.utils;
 

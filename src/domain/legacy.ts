@@ -421,7 +421,7 @@ export function useStakedUtxSupply(library, active) {
   const utxAddressArb = getContract(ARBITRUM, "UTX");
   const stakedUtxTrackerAddressArb = getContract(ARBITRUM, "StakedUtxTracker");
 
-  const { data: arbData, mutate: arbMutate } = useSWR<any>(
+  const { data: _, mutate: arbMutate } = useSWR<any>(
     [`StakeV2:stakedUtxSupply:${active}`, ARBITRUM, utxAddressArb, "balanceOf", stakedUtxTrackerAddressArb],
     {
       fetcher: contractFetcher(library, Token),

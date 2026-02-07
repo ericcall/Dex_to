@@ -2,12 +2,9 @@
 
 import { Trans } from "@lingui/macro";
 import ExternalLink from "components/ExternalLink/ExternalLink";
-import { getLeaderboardLink } from "config/links";
 import cx from "classnames";
-import { useChainId } from "lib/chains";
 
 export default function UsefulLinks({ className }) {
-  const { chainId } = useChainId();
   const classNames = cx("Exchange-swap-market-box App-box App-box-border", className);
   return (
     <div className={classNames}>
